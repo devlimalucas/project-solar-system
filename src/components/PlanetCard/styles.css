@@ -1,0 +1,44 @@
+.planet-card-container {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.paragraph-container {
+  margin-top: 15px;
+}
+
+.mercurio {
+  width: 41px;
+}
+
+.venus {
+  width: 102px;
+}
+
+.terra {
+  width: 106px;
+}
+
+.marte {
+  width: 66px;
+}
+
+.jupiter {
+  width: 272px;
+}
+
+.saturno {
+  width: 282.41px;
+}
+
+.urano {
+  width: 144px;
+}
+
+.netuno {
+  width: 144px;
+}

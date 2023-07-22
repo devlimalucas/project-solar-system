@@ -1,1 +1,19 @@
+.mission-container {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  margin-top: 25px;
+}
 
+.cards-container {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  margin-bottom: 15px;
+}

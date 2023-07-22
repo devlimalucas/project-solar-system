@@ -6,15 +6,19 @@ import './styles.css';
 
 function SolarSystem() {
   return (
-    <div data-testid="solar-system">
-      <Title headline="Planetas" />
-      {Planets.map((planets, index) => (
-        <PlanetCard
-          key={ index }
-          planetName={ planets.name }
-          planetImage={ planets.image }
-        />
-      ))}
+    <div data-testid="solar-system" className="col-mp-12 solarsystem-container">
+      <div className="col-mp-12">
+        <Title headline="Planetas" />
+      </div>
+      <div>
+        {Planets.map((planets, index) => (
+          <PlanetCard
+            key={ index }
+            planetName={ planets.name }
+            planetImage={ planets.image }
+          />
+        ))}
+      </div>
     </div>
   );
 }

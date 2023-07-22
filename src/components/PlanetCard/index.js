@@ -9,15 +9,19 @@ const normalizeClassText = (string) => string.normalize('NFD')
 function PlanetCard({ planetName, planetImage }) {
   return (
     <div
-      className="container planet-card"
+      className="planet-card-container"
       data-testid="planet-card"
     >
-      <p data-testid="planet-name">{ planetName }</p>
-      <img
-        className={ normalizeClassText(planetName) }
-        src={ planetImage }
-        alt={ `Planeta ${planetName}` }
-      />
+      <div>
+        <img
+          className={ normalizeClassText(planetName) }
+          src={ planetImage }
+          alt={ `Planeta ${planetName}` }
+        />
+      </div>
+      <div className="paragraph-container">
+        <p data-testid="planet-name">{ planetName }</p>
+      </div>
     </div>
   );
 }

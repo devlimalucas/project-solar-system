@@ -4,8 +4,8 @@ import './styles.css';
 
 function Title({ headline }) {
   return (
-    <div>
-      <h2>{headline}</h2>
+    <div className="title-container">
+      <h2 className="col-mp-9">{headline}</h2>
     </div>
   );
 }
