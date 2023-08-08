@@ -17,24 +17,27 @@ function Footer() {
           </a>
         </p>
       </div>
-      <div className="icons-container col-mp-12">
-        <div>
+      <div className="linkedin icons-container col-mp-12">
+        <div className="icon-container col-mp-6">
           <a
-            className="a-linkedin"
             target="_blank"
             href="https://www.linkedin.com/in/dev-lucas-lima-pe/"
             rel="noreferrer"
           >
-            <AiFillLinkedin />
+            <AiFillLinkedin
+              size={ 50 }
+            />
           </a>
         </div>
-        <div>
+        <div className="icon-container col-mp-6">
           <a
             target="_blank"
             href="https://github.com/devlimalucas"
             rel="noreferrer"
           >
-            <AiFillGithub className="linkedin" />
+            <AiFillGithub
+              size={ 50 }
+            />
           </a>
         </div>
       </div>
