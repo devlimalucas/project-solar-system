@@ -10,7 +10,7 @@ function Footer() {
           Desenvolvido por
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/dev-lucas-lima-pe/"
+            href="https://www.linkedin.com/in/devlimalucas/"
             rel="noreferrer"
           >
             Lucas Lima
@@ -21,7 +21,7 @@ function Footer() {
         <div className="icon-container col-mp-6">
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/dev-lucas-lima-pe/"
+            href="https://www.linkedin.com/in/devlimalucas/"
             rel="noreferrer"
           >
             <AiFillLinkedin
