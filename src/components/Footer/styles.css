@@ -1,25 +1,17 @@
-.footer-container {
-  align-items: center;
-  align-self: center;
+.container {
   display: flex;
+}
+
+.footer {
   flex-direction: column;
-  justify-content: center;
   text-align: center;
 }
 
-.icons-container {
-  align-items: center;
-  align-self: center;
-  display: flex;
+.icons {
   flex-direction: row;
-  margin-bottom: 50px;
-}
-
-.icon-container {
-  align-items: center;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  justify-content: center;
 }
 
 a {
@@ -32,6 +24,3 @@ a:hover {
   color: blue;
 }
 
-.linkedin {
-  justify-content: flex-start;
-}

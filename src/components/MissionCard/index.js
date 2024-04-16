@@ -4,8 +4,8 @@ import './styles.css';
 
 function MissionCard({ name, year, country, destination }) {
   return (
-    <div data-testid="mission-card" className="mission-card-container col-mp-12">
-      <table className="col-mp-9">
+    <div data-testid="mission-card" className="mission-card-container col-mp-12 col-s-6">
+      <table className="col-mp-9 col-s-11">
         <tbody>
           <tr>
             <th data-testid="mission-name">{name}</th>

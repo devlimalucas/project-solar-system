@@ -4,7 +4,7 @@ import './styles.css';
 
 function Footer() {
   return (
-    <footer className="footer-container col-mp-12">
+    <footer className="container footer col-mp-12">
       <div>
         <p>
           Desenvolvido por
@@ -17,8 +17,8 @@ function Footer() {
           </a>
         </p>
       </div>
-      <div className="linkedin icons-container col-mp-12">
-        <div className="icon-container col-mp-6">
+      <div className="container icons">
+        <div className="container icon">
           <a
             target="_blank"
             href="https://www.linkedin.com/in/devlimalucas/"
@@ -29,7 +29,7 @@ function Footer() {
             />
           </a>
         </div>
-        <div className="icon-container col-mp-6">
+        <div className="container icon">
           <a
             target="_blank"
             href="https://github.com/devlimalucas"
