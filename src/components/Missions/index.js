@@ -10,7 +10,7 @@ function Missions() {
       <div className="col-mp-12">
         <Title headline="Missões" />
       </div>
-      <div className="col-mp-9 cards-container">
+      <div className="col-mp-9 cards-container col-s-12">
         {missions.map((mission, index) => (
           <MissionCard
             key={ index }
